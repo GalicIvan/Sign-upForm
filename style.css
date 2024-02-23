@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Custom font';
+    src: url(Norse-Bold.otf) format('woff2');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Custom font', sans-serif;
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+}
+
+.left-side {
+    height: 100vh;
+    width: 493px;
+    position: relative;
+}
+
+.left-side img {
+    height: 100%;
+    position: relative;
+}
+
+.left-side__icon {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100px;
+    width: 100%;
+    font-size: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side__text {
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    font-size: 18px;
+}
+
+.right-side__form {
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.right-side__form-caption {
+    letter-spacing: 0;
+    padding: 0;
+
+}
+
+input {
+    width: 50%;
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: rgb(72, 72, 201); 
+    box-shadow: 0 0 5px rgba(123, 124, 125, 0.5); /* Add a shadow */
+    outline: none; 
+}
+
+.submitButton {
+    width: 30%;
+    background-color: #596D48; 
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+.submitButton:hover {
+    background-color: #404f32;
+  }
+
+.right-side__login {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 120px;
+}
+
+.right-side__login span {
+    color: #45a049;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+}
+
